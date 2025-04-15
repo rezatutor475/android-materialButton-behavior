@@ -1,0 +1,12 @@
+<android.support.design.widget.CoordinatorLayout ... >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        ... />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/fab"
+        android:layout_gravity="bottom|end"
+        app:layout_behavior=".MaterialButtonBehavior"
+        ... />
+</android.support.design.widget.CoordinatorLayout>
